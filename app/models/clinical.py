@@ -41,7 +41,7 @@ class PatientSession(BaseModel):
         "triaging",
         "retrieving",
         "synthesizing",
-        "completed",
+        "complete",
         "failed",
         "needs_review"
     ] = "created"
